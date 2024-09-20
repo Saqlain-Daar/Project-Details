@@ -244,5 +244,5 @@ systemctl start kibana
 URL: https://<wazuh_server_ip>
 user: elastic
 password: <PASSWORD_elastic>
-##### This part provides the URL, username, and password to access the Wazuh web interface. Replace <wazuh_server_ip> with the actual IP address of your Wazuh server and <PASSWORD_elastic> with the previously generated password for the elastic user.
+#### This part provides the URL, username, and password to access the Wazuh web interface. Replace <wazuh_server_ip> with the actual IP address of your Wazuh server and <PASSWORD_elastic> with the previously generated password for the elastic user.
 
