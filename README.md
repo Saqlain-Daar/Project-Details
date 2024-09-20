@@ -240,7 +240,7 @@ systemctl enable kibana
 systemctl start kibana
 ```
 ## 8.Access the web interface using the password generated during the Elasticsearch installation process:
-# For Check
+## For Check
 URL: https://<wazuh_server_ip>
 user: elastic
 password: <PASSWORD_elastic>
