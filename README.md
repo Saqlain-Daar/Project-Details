@@ -1,4 +1,4 @@
-###  Installing prerequisites
+###  Installing prerequisites.
 ###### Some extra packages are needed for the installation, such as curl or unzip, which will be used in further steps. However, this step can be skipped if curl and unzip are already installed on the server.
 ## Install all the necessary packages:
 ```bash
