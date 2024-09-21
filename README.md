@@ -107,7 +107,7 @@ curl -XGET https://localhost:9200 -u elastic:<elastic_password> -k
   "tagline" : "You Know, for Search"
 }
 ## Installing Wazuh server
-######The Wazuh server collects and analyzes data from deployed agents. It runs the Wazuh manager, the Wazuh API and Filebeat. The first step in setting up Wazuh is to add the Wazuh repository to the server. 
+###### The Wazuh server collects and analyzes data from deployed agents. It runs the Wazuh manager, the Wazuh API and Filebeat. The first step in setting up Wazuh is to add the Wazuh repository to the server. 
 ### Adding the Wazuh repository
 ## 1.Install the GPG key:
 ```bash
