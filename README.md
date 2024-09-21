@@ -90,22 +90,22 @@ curl -XGET https://localhost:9200 -u elastic:<elastic_password> -k
 #### This command should have an output like this:
 ## output
 {
-  "name" : "elasticsearch", 
-  "cluster_name" : "elasticsearch", 
-  "cluster_uuid" : "BgdIyCXxSPGeRusvb6-_Qw", 
-  "version" : {
-    "number" : "7.17.6",
-    "build_flavor" : "default", 
-    "build_type" : "rpm", 
-    "build_hash" : "f65e9d338dc1d07b642e14a27f338990148ee5b6", 
-    "build_date" : "2022-08-23T11:08:48.893373482Z", 
-    "build_snapshot" : false, 
-    "lucene_version" : "8.11.1", 
-    "minimum_wire_compatibility_version" : "6.8.0", 
-    "minimum_index_compatibility_version" : "6.0.0-beta1" 
-  },
-  "tagline" : "You Know, for Search" 
-} 
+  "name" : "elasticsearch", .<br>
+  "cluster_name" : "elasticsearch",  .<br>
+  "cluster_uuid" : "BgdIyCXxSPGeRusvb6-_Qw",  .<br>
+  "version" : {  .<br>
+    "number" : "7.17.6",  .<br>
+    "build_flavor" : "default",   .<br>
+    "build_type" : "rpm",  .<br>
+    "build_hash" : "f65e9d338dc1d07b642e14a27f338990148ee5b6",  .<br>
+    "build_date" : "2022-08-23T11:08:48.893373482Z",  .<br>
+    "build_snapshot" : false,  .<br>
+    "lucene_version" : "8.11.1",  .<br>
+    "minimum_wire_compatibility_version" : "6.8.0",  .<br>
+    "minimum_index_compatibility_version" : "6.0.0-beta1"  .<br>
+  }, .<br>
+  "tagline" : "You Know, for Search"  .<br>
+}  .<br>
 ## Installing Wazuh server
 ###### The Wazuh server collects and analyzes data from deployed agents. It runs the Wazuh manager, the Wazuh API and Filebeat. The first step in setting up Wazuh is to add the Wazuh repository to the server. 
 ### Adding the Wazuh repository
@@ -179,20 +179,20 @@ filebeat test output
 ```
 #### This command should have an output like this:
 ## output
- elasticsearch: https://127.0.0.1:9200...
-   parse url... OK
-   connection...
-     parse host... OK
-     dns lookup... OK
-     addresses: 127.0.0.1
-     dial up... OK
-   TLS...
-     security: server's certificate chain verification is enabled
-     handshake... OK
-     TLS version: TLSv1.3
-     dial up... OK
-   talk to server... OK
-   version: 7.17.6
+ elasticsearch: https://127.0.0.1:9200...  .<br>
+   parse url... OK  .<br>
+   connection...  .<br>
+     parse host... OK  .<br>
+     dns lookup... OK  .<br>
+     addresses: 127.0.0.1  .<br>
+     dial up... OK  .<br>
+   TLS...  .<br>
+     security: server's certificate chain verification is enabled  .<br>
+     handshake... OK  .<br>
+     TLS version: TLSv1.3  .<br>
+     dial up... OK  .<br>
+   talk to server... OK  .<br>
+   version: 7.17.6  .<br>
    ### Kibana installation and configuration
    ###### Kibana is a flexible and intuitive web interface for mining and visualizing the events and archives stored in Elasticsearch.
    ## 1. Install the Kibana package:
