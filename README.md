@@ -90,22 +90,22 @@ curl -XGET https://localhost:9200 -u elastic:<elastic_password> -k
 #### This command should have an output like this:
 ## output
 {
-  "name" : "elasticsearch",
-  "cluster_name" : "elasticsearch",
-  "cluster_uuid" : "BgdIyCXxSPGeRusvb6-_Qw",
+  "name" : "elasticsearch", 
+  "cluster_name" : "elasticsearch", 
+  "cluster_uuid" : "BgdIyCXxSPGeRusvb6-_Qw", 
   "version" : {
     "number" : "7.17.6",
-    "build_flavor" : "default",
-    "build_type" : "rpm",
-    "build_hash" : "f65e9d338dc1d07b642e14a27f338990148ee5b6",
-    "build_date" : "2022-08-23T11:08:48.893373482Z",
-    "build_snapshot" : false,
-    "lucene_version" : "8.11.1",
-    "minimum_wire_compatibility_version" : "6.8.0",
-    "minimum_index_compatibility_version" : "6.0.0-beta1"
+    "build_flavor" : "default", 
+    "build_type" : "rpm", 
+    "build_hash" : "f65e9d338dc1d07b642e14a27f338990148ee5b6", 
+    "build_date" : "2022-08-23T11:08:48.893373482Z", 
+    "build_snapshot" : false, 
+    "lucene_version" : "8.11.1", 
+    "minimum_wire_compatibility_version" : "6.8.0", 
+    "minimum_index_compatibility_version" : "6.0.0-beta1" 
   },
-  "tagline" : "You Know, for Search"
-}
+  "tagline" : "You Know, for Search" 
+} 
 ## Installing Wazuh server
 ###### The Wazuh server collects and analyzes data from deployed agents. It runs the Wazuh manager, the Wazuh API and Filebeat. The first step in setting up Wazuh is to add the Wazuh repository to the server. 
 ### Adding the Wazuh repository
